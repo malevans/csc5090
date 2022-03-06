@@ -1,0 +1,53 @@
+1. Go to https://www.microsoft.com/en-us/software-download/windows8ISO
+under 'Seclect edition' choose Windows 8.1
+Click Confirm
+2. Go to https://rufus.ie/en/
+Click the Download LInk
+3. Launch Rufus and accept UAC
+- Choose SELECT and browse to the Downloaded WIN8 ISO
+- Select the USB Under the 'device'
+- 'Image Option' Standard Windows Installation
+Accept Defaults for Particton Scheme (GPT) and Target System
+- Enter a value for Volume Label
+- Leave Advanced format option defaults
+Click START
+
+
+
+Link to enabling Hyper V
+
+1. Open Hyper-V Manager
+2. Click 'Connect to Server...'
+- Select 'Local Machine and click OK
+- click New and choose Virtual Machine in flyout to open the new VM wizard
+- Click Next 
+- Enter a name for the VM
+- Click check box and change the location where the VM is stored if required
+- Click Next
+Choose the generation of the VM - Default to Gen 1 for compatibility with previous verions of Hyper-V
+click Next
+Specify the memory (RAM) to allocate to the virtual machine
+https://docs.microsoft.com/en-us/windows/win32/memory/memory-limits-for-windows-releases
+
+- Configure Networking
+	- Select Default Switch
+
+
+- Connect
+Click 'Start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
